@@ -1,0 +1,33 @@
+.kick-pad, 
+.snare-pad, 
+.hihat-pad {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+
+}
+
+.kick-pad {
+    background-color: rgb(160, 211, 240);
+}
+
+.snare-pad {
+    background-color: rgb(240, 160, 240);
+}
+
+.hihat-pad {
+    background-color: rgb(240, 192, 160);
+}
+
+.kick-pad.active {
+    background-color: rgb(84, 183, 240);
+}
+
+.snare-pad.active {
+    background-color: rgb(235, 106, 235);
+}
+
+.hihat-pad.active {
+    background-color: rgb(235, 146, 88);
+}

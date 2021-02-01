@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+i, svg {
+   pointer-events: none; 
+}
+
+
+
+@import "blocks/pads";
+@import "blocks/tracks";
+@import "blocks/sequencer";
+@import "blocks/controls";
+@import "blocks/play";
+@import "blocks/animations";
+@import "blocks/tempo";
